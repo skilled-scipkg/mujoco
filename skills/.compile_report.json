@@ -1,0 +1,411 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "mujoco",
+  "evidence": {
+    "core_skills": [
+      "mujoco-build-and-install",
+      "mujoco-inputs-and-modeling",
+      "mujoco-getting-started",
+      "mujoco-api-and-scripting",
+      "mujoco-mjx",
+      "mujoco-openusd"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/mujoco-build-and-install.md",
+      "skills/.evidence/mujoco-inputs-and-modeling.md",
+      "skills/.evidence/mujoco-getting-started.md",
+      "skills/.evidence/mujoco-api-and-scripting.md",
+      "skills/.evidence/mujoco-mjx.md",
+      "skills/.evidence/mujoco-openusd.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md",
+        "skills/mujoco-advanced-topics/SKILL.md",
+        "skills/mujoco-advanced-topics/references/doc_map.md",
+        "skills/mujoco-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/mujoco-advanced-topics/SKILL.md",
+        "skills/mujoco-advanced-topics/references/doc_map.md",
+        "skills/mujoco-advanced-topics/references/source_map.md",
+        "skills/mujoco-analysis-and-output/SKILL.md",
+        "skills/mujoco-analysis-and-output/references/doc_map.md",
+        "skills/mujoco-analysis-and-output/references/source_map.md",
+        "skills/mujoco-api-and-scripting/SKILL.md",
+        "skills/mujoco-build-and-install/SKILL.md",
+        "skills/mujoco-changelog/SKILL.md",
+        "skills/mujoco-changelog/references/doc_map.md",
+        "skills/mujoco-changelog/references/source_map.md",
+        "skills/mujoco-examples-and-tutorials/SKILL.md",
+        "skills/mujoco-examples-and-tutorials/references/doc_map.md",
+        "skills/mujoco-examples-and-tutorials/references/source_map.md",
+        "skills/mujoco-general/SKILL.md",
+        "skills/mujoco-general/references/doc_map.md",
+        "skills/mujoco-general/references/source_map.md",
+        "skills/mujoco-getting-started/SKILL.md",
+        "skills/mujoco-index/SKILL.md",
+        "skills/mujoco-inputs-and-modeling/SKILL.md",
+        "skills/mujoco-mjx/SKILL.md",
+        "skills/mujoco-openusd/SKILL.md",
+        "skills/mujoco-troubleshooting/SKILL.md",
+        "skills/mujoco-troubleshooting/references/doc_map.md",
+        "skills/mujoco-troubleshooting/references/source_map.md",
+        "skills/mujoco-xmlschema/SKILL.md",
+        "skills/mujoco-xmlschema/references/doc_map.md",
+        "skills/mujoco-xmlschema/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/mujoco-analysis-and-output/SKILL.md",
+        "skills/mujoco-analysis-and-output/references/doc_map.md",
+        "skills/mujoco-analysis-and-output/references/source_map.md",
+        "skills/mujoco-changelog/SKILL.md",
+        "skills/mujoco-changelog/references/doc_map.md",
+        "skills/mujoco-changelog/references/source_map.md",
+        "skills/mujoco-examples-and-tutorials/SKILL.md",
+        "skills/mujoco-examples-and-tutorials/references/doc_map.md",
+        "skills/mujoco-examples-and-tutorials/references/source_map.md",
+        "skills/mujoco-general/SKILL.md",
+        "skills/mujoco-general/references/doc_map.md",
+        "skills/mujoco-general/references/source_map.md",
+        "skills/mujoco-troubleshooting/SKILL.md",
+        "skills/mujoco-troubleshooting/references/doc_map.md",
+        "skills/mujoco-troubleshooting/references/source_map.md",
+        "skills/mujoco-xmlschema/SKILL.md",
+        "skills/mujoco-xmlschema/references/doc_map.md",
+        "skills/mujoco-xmlschema/references/source_map.md"
+      ],
+      "modified": [
+        "skills/mujoco-api-and-scripting/SKILL.md",
+        "skills/mujoco-build-and-install/SKILL.md",
+        "skills/mujoco-getting-started/SKILL.md",
+        "skills/mujoco-index/SKILL.md",
+        "skills/mujoco-inputs-and-modeling/SKILL.md",
+        "skills/mujoco-mjx/SKILL.md",
+        "skills/mujoco-openusd/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/mujoco-advanced-topics/SKILL.md",
+        "skills/mujoco-advanced-topics/references/doc_map.md",
+        "skills/mujoco-advanced-topics/references/source_map.md",
+        "skills/mujoco-api-and-scripting/SKILL.md",
+        "skills/mujoco-api-and-scripting/references/doc_map.md",
+        "skills/mujoco-api-and-scripting/references/source_map.md",
+        "skills/mujoco-build-and-install/references/doc_map.md",
+        "skills/mujoco-build-and-install/references/source_map.md",
+        "skills/mujoco-developer-guide/SKILL.md",
+        "skills/mujoco-developer-guide/references/doc_map.md",
+        "skills/mujoco-developer-guide/references/source_map.md",
+        "skills/mujoco-getting-started/SKILL.md",
+        "skills/mujoco-getting-started/references/doc_map.md",
+        "skills/mujoco-getting-started/references/source_map.md",
+        "skills/mujoco-includes/SKILL.md",
+        "skills/mujoco-includes/references/doc_map.md",
+        "skills/mujoco-includes/references/source_map.md",
+        "skills/mujoco-index/SKILL.md",
+        "skills/mujoco-inputs-and-modeling/SKILL.md",
+        "skills/mujoco-inputs-and-modeling/references/doc_map.md",
+        "skills/mujoco-inputs-and-modeling/references/source_map.md",
+        "skills/mujoco-mjx/references/doc_map.md",
+        "skills/mujoco-mjx/references/source_map.md",
+        "skills/mujoco-openusd/SKILL.md",
+        "skills/mujoco-openusd/references/doc_map.md",
+        "skills/mujoco-openusd/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/mujoco-advanced-topics/SKILL.md",
+        "skills/mujoco-advanced-topics/references/doc_map.md",
+        "skills/mujoco-advanced-topics/references/source_map.md",
+        "skills/mujoco-api-and-scripting/SKILL.md",
+        "skills/mujoco-api-and-scripting/references/doc_map.md",
+        "skills/mujoco-api-and-scripting/references/source_map.md",
+        "skills/mujoco-build-and-install/references/doc_map.md",
+        "skills/mujoco-build-and-install/references/source_map.md",
+        "skills/mujoco-developer-guide/SKILL.md",
+        "skills/mujoco-developer-guide/references/doc_map.md",
+        "skills/mujoco-developer-guide/references/source_map.md",
+        "skills/mujoco-getting-started/SKILL.md",
+        "skills/mujoco-getting-started/references/doc_map.md",
+        "skills/mujoco-getting-started/references/source_map.md",
+        "skills/mujoco-includes/SKILL.md",
+        "skills/mujoco-includes/references/doc_map.md",
+        "skills/mujoco-includes/references/source_map.md",
+        "skills/mujoco-index/SKILL.md",
+        "skills/mujoco-inputs-and-modeling/SKILL.md",
+        "skills/mujoco-inputs-and-modeling/references/doc_map.md",
+        "skills/mujoco-inputs-and-modeling/references/source_map.md",
+        "skills/mujoco-mjx/references/doc_map.md",
+        "skills/mujoco-mjx/references/source_map.md",
+        "skills/mujoco-openusd/SKILL.md",
+        "skills/mujoco-openusd/references/doc_map.md",
+        "skills/mujoco-openusd/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Primary docs are in doc/ with RST chapters for programming, API, modeling, Python, MJX, and Unity.",
+      "Tutorial/example assets are split across notebook roots (python/, mjx/), C++ samples (sample/), and MJCF models (model/).",
+      "Tests are split across C/C++ (test/), Python binding tests (python/mujoco/*_test.py), MJX tests (mjx/mujoco/mjx), Unity tests, and wasm/tests.",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to remove invalid f-string expressions so dry-run generation works."
+    ],
+    "package_name": "mujoco",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "include",
+      "plugin",
+      "simulate",
+      "python/mujoco",
+      "mjx/mujoco/mjx",
+      "wasm/codegen"
+    ],
+    "test_dirs": [
+      "test",
+      "python/mujoco",
+      "mjx/mujoco/mjx",
+      "unity/Tests",
+      "wasm/tests"
+    ],
+    "tutorial_dirs": [
+      "python",
+      "mjx",
+      "sample",
+      "model",
+      "wasm/demo_app"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco",
+  "run_id": "compile_20260304T191844738070Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "mujoco-analysis-and-output",
+      "mujoco-api-and-scripting",
+      "mujoco-build-and-install",
+      "mujoco-changelog",
+      "mujoco-developer-guide",
+      "mujoco-examples-and-tutorials",
+      "mujoco-general",
+      "mujoco-getting-started",
+      "mujoco-includes",
+      "mujoco-index",
+      "mujoco-inputs-and-modeling",
+      "mujoco-mjx",
+      "mujoco-openusd",
+      "mujoco-troubleshooting",
+      "mujoco-xmlschema"
+    ],
+    "core_skill_ids": [
+      "mujoco-build-and-install",
+      "mujoco-inputs-and-modeling",
+      "mujoco-getting-started",
+      "mujoco-api-and-scripting",
+      "mujoco-mjx",
+      "mujoco-openusd"
+    ],
+    "deferred_gaps": [
+      "Dry-run surfaced narrow one-doc topics (e.g., openusd/changelog/xmlschema/includes); merge policy deferred to pass 3 consolidation.",
+      "Unity C# runtime sources are not strongly indexed by current generator source-extension defaults; keep Unity coverage docs-first in pass 2.",
+      "Notebook files (*.ipynb) are tutorial assets but not parsed as docs by the generator; enrich with concise runnable snippets during pass 2."
+    ],
+    "goal": "Generate stable docs-first MuJoCo skills, then enrich highest-impact workflows for common user requests.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Intent triage into install/modeling/simulation/api/performance/troubleshooting",
+          "Docs-first escalation policy and when to inspect source",
+          "Routing to notebook/examples/tests for runnable references"
+        ],
+        "reason": "High leverage router for a multi-surface package (core engine, Python bindings, MJX, Unity/wasm, plugins).",
+        "skill_id": "mujoco-index",
+        "source_hints": [
+          "README.md",
+          "doc/index.rst",
+          "skills/.compile_profile.json"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Build-from-source flow with CMake",
+          "Python package install vs source-build path",
+          "Smoke-test paths for simulate and Python import"
+        ],
+        "reason": "Most first-contact failures are environment and build issues across CMake/Python/runtime viewers.",
+        "skill_id": "mujoco-build-and-install",
+        "source_hints": [
+          "doc/programming/index.rst",
+          "doc/python.rst",
+          "CMakeLists.txt",
+          "python/setup.py",
+          "simulate/"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MJCF structure, schema, and modeling conventions",
+          "Model composition/assets and common validation errors",
+          "Mapping docs guidance to representative model examples"
+        ],
+        "reason": "Model authoring and MJCF semantics drive most usage questions and correctness issues.",
+        "skill_id": "mujoco-inputs-and-modeling",
+        "source_hints": [
+          "doc/modeling.rst",
+          "doc/XMLreference.rst",
+          "doc/XMLschema.rst",
+          "doc/models.rst",
+          "model/"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Simulation lifecycle from model load to stepping/output",
+          "Viewer/simulate usage and sample executable patterns",
+          "Behavior checks anchored to existing tests"
+        ],
+        "reason": "Run-loop, stepping, visualization, and output interpretation are core operational workflows.",
+        "skill_id": "mujoco-xmlschema",
+        "source_hints": [
+          "doc/programming/simulation.rst",
+          "doc/programming/samples.rst",
+          "sample/",
+          "simulate/",
+          "test/sample"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "C API to Python binding mental model",
+          "Notebook-backed minimal Python and MJX examples",
+          "API navigation strategy across reference docs and source"
+        ],
+        "reason": "Python and MJX APIs are heavily used and require precise docs-backed call patterns.",
+        "skill_id": "mujoco-api-and-scripting",
+        "source_hints": [
+          "doc/APIreference/index.rst",
+          "doc/python.rst",
+          "doc/mjx.rst",
+          "python/mujoco",
+          "mjx/mujoco/mjx"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Build and dependency error triage",
+          "Model compilation/runtime stability checks",
+          "Doc-backed fixes with test/example cross-checks"
+        ],
+        "reason": "Compile/runtime/model errors recur and benefit from a consolidated diagnostics playbook.",
+        "skill_id": "mujoco-troubleshooting",
+        "source_hints": [
+          "doc/changelog.rst",
+          "doc/programming/",
+          "test/",
+          "python/mujoco/*_test.py"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "mujoco-openusd",
+      "mujoco-mjx",
+      "mujoco-inputs-and-modeling",
+      "mujoco-includes",
+      "mujoco-getting-started",
+      "mujoco-developer-guide"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-openusd/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-mjx/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-includes/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-includes/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-includes/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-developer-guide/SKILL.md: playbook missing required element containing 'minimal working example'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-developer-guide/SKILL.md: playbook missing required element containing 'pitfalls'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-developer-guide/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "skill plan target missing from generated skills/: mujoco-xmlschema",
+      "skill plan target missing from generated skills/: mujoco-troubleshooting"
+    ],
+    "index_skills": [
+      "mujoco-index"
+    ],
+    "missing_planned_skills": [
+      "mujoco-xmlschema",
+      "mujoco-troubleshooting"
+    ],
+    "ok": false,
+    "planned_skill_ids": [
+      "mujoco-index",
+      "mujoco-build-and-install",
+      "mujoco-inputs-and-modeling",
+      "mujoco-xmlschema",
+      "mujoco-api-and-scripting",
+      "mujoco-troubleshooting"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 10,
+    "source_inventory": {},
+    "source_links_total": 122,
+    "topic_skills": 9,
+    "warnings": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/mujoco-mujoco/skills/mujoco-getting-started/SKILL.md: unresolved internal link `skills/<skill-id>/references/doc_map.md`."
+    ]
+  }
+}
